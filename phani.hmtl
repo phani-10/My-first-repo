@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Feedback Form</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <form>
+            Name: <input type="text"><br><br>
+     Email: <input type="email" ><br><br>
+<h4>How did you hear about the website?</h4>
+      <form>
+        <input type="radio" name="source" value="google"> Google</input>
+        <input type="radio" name="source" value="social_media"> Social Media</input>
+        <input type="radio" name="source" value="friend"> Friend</input>
+        <input type="radio" name="source" value="others"> Others</input>
+      </form>
+   <h4>What did you like the most?</h4>
+      <form>
+        <input type="checkbox" name="like" value="ui Design"> UI Design</input>
+        <input type="checkbox" name="like" value="speed"> Speed</input>
+        <input type="checkbox" name="like" value="content"> Content</input>
+        <input type="checkbox" name="like" value="responsive"> Responsiveness</input>
+      </form>
+
+      <h4>Rate us:</h4>
+      <select name="rating">
+        <option value="">--Select--</option>
+        <option value="1">1 Star</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5">5 Stars</option>
+      </select>
+         <h4>Leave a message or comment:</h4>
+      <textarea name="message" rows="20" cols="50"></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+    <a href="http://www.index.html" target="_blank">Back to Homepage</a>
+  </form>
+</body>
+</html>
